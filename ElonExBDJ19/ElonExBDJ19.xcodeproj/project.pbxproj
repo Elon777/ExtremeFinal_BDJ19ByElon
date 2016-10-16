@@ -251,8 +251,8 @@
 		DBB1D65B1DB3B76C0017FE13 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				DBB1D65C1DB3B76C0017FE13 /* Category */,
 				DBB1D65D1DB3B76C0017FE13 /* main.m */,
+				DBB1D65C1DB3B76C0017FE13 /* Category */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -321,6 +321,7 @@
 		DBB1D6211DB3B3C90017FE13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TWE;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "ElonLee Co.,Ltd.";
 				TargetAttributes = {
@@ -477,9 +478,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = XLG32MPT73;
 				INFOPLIST_FILE = ElonExBDJ19/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elonlovetweet.ElonExBDJ19;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -490,9 +492,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = XLG32MPT73;
 				INFOPLIST_FILE = ElonExBDJ19/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elonlovetweet.ElonExBDJ19;
 				PRODUCT_NAME = "$(TARGET_NAME)";
